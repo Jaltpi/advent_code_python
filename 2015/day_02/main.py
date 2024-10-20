@@ -27,7 +27,9 @@ for item in presents_to_wrap_dimensions:
     amount_of_wrapping_paper_for_item = required_wrapping_paper + required_slack
     wrapped_presents_estimate.append(amount_of_wrapping_paper_for_item)
     print(
-        f"The current presents dimensions required_wrapping_paper:{required_wrapping_paper} needs to have the additional slack of:{required_slack}, we expect the amount_of_wrapping_paper_for_item to require square feet of:{amount_of_wrapping_paper_for_item}"
+        f"The current presents dimensions required_wrapping_paper:{required_wrapping_paper} needs to have the "
+        f"additional slack of:{required_slack}, we expect the amount_of_wrapping_paper_for_item to require square "
+        f"feet of:{amount_of_wrapping_paper_for_item}"
     )
 
 total_wrapping_paper = sum(wrapped_presents_estimate)
